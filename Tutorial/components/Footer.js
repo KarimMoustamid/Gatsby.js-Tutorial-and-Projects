@@ -3,7 +3,7 @@ import React from "react"
 const Footer = () => {
   return (
     <footer>
-      <h3>gatsbyjs tutorial sandbox</h3>
+      <h3>Footer</h3>
     </footer>
   )
 }
