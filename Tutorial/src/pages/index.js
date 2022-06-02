@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../../components/Layout"
 // import "../../components/layout.css"
 import { page, text } from "../../examples/home.module.css"
+import { ExampleButton } from "../../examples/button"
 export default function Home() {
   return (
     <Layout>
@@ -12,6 +13,7 @@ export default function Home() {
           tempora a perspiciatis aut eaque tenetur ducimus cumque culpa ea
           expedita.
         </p>
+        <ExampleButton>Click Me</ExampleButton>
       </div>
     </Layout>
   )
