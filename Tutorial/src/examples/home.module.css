@@ -5,7 +5,7 @@
 .page h1 {
   color: blueviolet;
 }
+
 .text {
-  text-transform: uppercase;
-  color: green;
+  text-transform: capitalize;
 }
