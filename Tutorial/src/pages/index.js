@@ -1,8 +1,8 @@
 import * as React from "react"
-import Navbar from "../components/Navbar";
+import Layout from "../components/Layout";
+
 export default function Home() {
-    return <div>
-        <Navbar />
+    return <Layout>
         <h1>Hello Karim !</h1>
-    </div>
+    </Layout>
 }
