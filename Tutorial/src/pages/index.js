@@ -1,8 +1,10 @@
 import * as React from "react"
 import Layout from "../components/Layout";
-import {header} from '../../exemples/home.module.css'
+import {ExempleButton} from "../../exemples/button";
+
 export default function Home() {
     return <Layout>
-        <h1 className={header}>Hello Karim !</h1>
+        <h1>Hello Karim !</h1>
+        <ExempleButton>Button</ExempleButton>
     </Layout>
 }
