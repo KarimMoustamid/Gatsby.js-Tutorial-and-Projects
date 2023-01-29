@@ -1,14 +1,14 @@
 import React from 'react';
 import Layout from "../components/Layout";
 
-const ErrorPage = () => {
+const Tags = () => {
     return (
         <div>
             <Layout>
-                <h1>Error Page</h1>
+                <h1>Tags</h1>
             </Layout>
         </div>
     );
 };
 
-export default ErrorPage;
+export default Tags;
